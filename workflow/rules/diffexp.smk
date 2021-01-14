@@ -108,7 +108,7 @@ rule plot_bootstrap:
     output:
         report(
             directory("results/plots/bootstrap/{model}"),
-            patterns=["{gene}.{transcript}.{model}.bootstrap.pdf"],
+            #patterns=["{gene}.{transcript}.{model}.bootstrap.pdf"],
             caption="../report/plot-bootstrap.rst",
             category="Expression Plots"
         )
